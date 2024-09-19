@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    background-color: #bde0fe;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 300px;
+}
+
+button{
+    background: transparent;
+    border: hidden;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.weekdays{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+.day {
+    border: 0;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fade{
+    color: grey;
+}
+#fade:hover{
+    color: white;
+}
+
+.day:hover{
+    cursor: pointer;
+    background-color: #0077b6;
+    border-radius: 7px;
+    color: white;
+}
