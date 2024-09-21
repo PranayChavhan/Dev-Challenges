@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+img{
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100px
+}
+.container{
+    background-color: #bde0fe;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+    width: 400px;
+    border-radius: 30px;
+    padding: 12px;
+
+    border: blueviolet 2px solid;
+}

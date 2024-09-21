@@ -1,0 +1,59 @@
+/* Base styles */
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #bde0fe;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/* Slider container */
+.slider-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.slider-header h2 {
+    margin: 0;
+    color: #333;
+    font-size: 25px;
+}
+
+#price-label {
+    font-size: 24px;
+    color: #007bff;
+}
+
+/* Slider styles */
+.slider-wrapper {
+    margin-top: 20px;
+}
+
+.slider {
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .slider-container {
+        width: 90%;
+    }
+
+    #price-label {
+        font-size: 20px;
+    }
+}
